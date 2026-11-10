@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Navegacion from './componentes/Navegacion';
-import ProviderEstudiante from './providers/ProviderEstudiante';
+import Navegacion from './components/Navegacion';
+import RecetaProviders from './Providers/RecetaProvider';
 
 export default function App() {
   return (
     
-    <ProviderEstudiante>
+    <RecetaProviders>
       <Navegacion></Navegacion>
-    </ProviderEstudiante>
+    </RecetaProviders>
 
   );
 }
